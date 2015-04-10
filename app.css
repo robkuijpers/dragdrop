@@ -1,0 +1,32 @@
+body {
+  margin: 50px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+}
+
+#drop-zone {
+  border: 2px dashed lightgray;
+  width: 400px;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.dragover {
+  background-color: lightcyan;
+}
+
+.drag {
+  border: 1px dashed lightgray;
+}
